@@ -1,0 +1,130 @@
+{
+  "id": "1",
+  "companyName": "ElectraTech Inc.",
+  "description": "A global electronics manufacturer specializing in consumer gadgets.",
+  "nodes": [
+    {
+      "id": "Supplier_CN_01",
+      "type": "Supplier",
+      "location": {
+        "country": "China",
+        "region": "Guangdong",
+        "city": "Shenzhen",
+        "coordinates": [22.5431, 114.0579]
+      }
+    },
+    {
+      "id": "Supplier_IN_01",
+      "type": "Supplier",
+      "location": {
+        "country": "India",
+        "region": "Tamil Nadu",
+        "city": "Chennai",
+        "coordinates": [13.0827, 80.2707]
+      }
+    },
+    {
+      "id": "Port_SH_01",
+      "type": "Port",
+      "location": {
+        "country": "China",
+        "region": "Shanghai",
+        "city": "Shanghai",
+        "coordinates": [31.2304, 121.4737]
+      }
+    },
+    {
+      "id": "Port_IN_01",
+      "type": "Port",
+      "location": {
+        "country": "India",
+        "region": "Tamil Nadu",
+        "city": "Chennai",
+        "coordinates": [13.0827, 80.2707]
+      }
+    },
+    {
+      "id": "Factory_PL_01",
+      "type": "Factory",
+      "location": {
+        "country": "Poland",
+        "region": "Pomeranian Voivodeship",
+        "city": "Gdańsk",
+        "coordinates": [54.3520, 18.6466]
+      }
+    },
+    {
+      "id": "Factory_RO_01",
+      "type": "Factory",
+      "location": {
+        "country": "Romania",
+        "region": "Constanța County",
+        "city": "Constanța",
+        "coordinates": [44.1598, 28.6348]
+      }
+    },
+    {
+      "id": "Distribution_DE_01",
+      "type": "Distribution Center",
+      "location": {
+        "country": "Germany",
+        "region": "Bavaria",
+        "city": "Munich",
+        "coordinates": [48.1351, 11.5820]
+      }
+    },
+    {
+      "id": "Distribution_NL_01",
+      "type": "Distribution Center",
+      "location": {
+        "country": "Netherlands",
+        "region": "North Holland",
+        "city": "Amsterdam",
+        "coordinates": [52.3676, 4.9041]
+      }
+    },
+    {
+      "id": "Port_FR_01",
+      "type": "Port",
+      "location": {
+        "country": "France",
+        "region": "Île-de-France",
+        "city": "Le Havre",
+        "coordinates": [49.4944, 0.1079]
+      }
+    },
+    {
+      "id": "Distribution_US_01",
+      "type": "Distribution Center",
+      "location": {
+        "country": "United States",
+        "region": "California",
+        "city": "Los Angeles",
+        "coordinates": [34.0522, -118.2437]
+      }
+    },
+    {
+      "id": "Factory_US_01",
+      "type": "Factory",
+      "location": {
+        "country": "United States",
+        "region": "Texas",
+        "city": "Dallas",
+        "coordinates": [32.7767, -96.7970]
+      }
+    }
+  ],
+  "edges": [
+    { "source": "Supplier_CN_01", "destination": "Port_SH_01", "transportMode": "Sea" },
+    { "source": "Supplier_IN_01", "destination": "Port_IN_01", "transportMode": "Sea" },
+    { "source": "Port_SH_01", "destination": "Factory_PL_01", "transportMode": "Sea" },
+    { "source": "Port_IN_01", "destination": "Factory_RO_01", "transportMode": "Sea" },
+    { "source": "Factory_PL_01", "destination": "Distribution_DE_01", "transportMode": "Rail" },
+    { "source": "Factory_RO_01", "destination": "Distribution_DE_01", "transportMode": "Rail" },
+    { "source": "Distribution_DE_01", "destination": "Distribution_NL_01", "transportMode": "Road" },
+    { "source": "Distribution_NL_01", "destination": "Port_FR_01", "transportMode": "Road" },
+    { "source": "Port_FR_01", "destination": "Distribution_US_01", "transportMode": "Air" },
+    { "source": "Distribution_US_01", "destination": "Factory_US_01", "transportMode": "Road" },
+    { "source": "Factory_US_01", "destination": "Distribution_US_01", "transportMode": "Air" }
+  ]
+}

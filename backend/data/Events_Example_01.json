@@ -1,0 +1,144 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Strike in Brazil disrupts major ports",
+      "description": "A major strike in Brazil has halted operations at several key ports, causing delays in shipments worldwide.",
+      "risk_categories": [
+        {"class_name": "Geopolitical", "families": ["Political Violence"]}
+      ],
+      "timestamp": "2025-01-19T12:00:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "Brazil",
+        "region": null,
+        "city": null,
+        "coordinates": [-14.2350, -51.9253]
+      },
+      "source_name": "Global News",
+      "author": "Jane Doe",
+      "url": "http://example.com/article1",
+      "is_event": true
+    },
+    {
+      "id": "2",
+      "title": "China tightens export controls",
+      "description": "China has implemented stricter export controls, causing slowdowns in global manufacturing supply chains.",
+      "risk_categories": [
+        {"class_name": "Geopolitical", "families": ["Business Environment (Country Risk)"]}
+      ],
+      "timestamp": "2025-01-18T09:30:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "China",
+        "region": null,
+        "city": null,
+        "coordinates": [35.8617, 104.1954]
+      },
+      "source_name": "Manufacturing Weekly",
+      "author": "John Smith",
+      "url": "http://example.com/article2",
+      "is_event": true
+    },
+    {
+      "id": "3",
+      "title": "Heavy floods disrupt Chennai's logistics",
+      "description": "Severe flooding in Chennai, India, has caused major disruptions to local logistics operations, affecting nearby suppliers and distribution routes.",
+      "risk_categories": [
+        {"class_name": "Environmental", "families": ["Extreme Weather"]}
+      ],
+      "timestamp": "2025-01-20T08:15:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "India",
+        "region": "Tamil Nadu",
+        "city": "Chennai",
+        "coordinates": [13.0827, 80.2707]
+      },
+      "source_name": "Weather News",
+      "author": "Priya Sharma",
+      "url": "http://example.com/article3",
+      "is_event": true
+    },
+    {
+      "id": "4",
+      "title": "Port congestion in Singapore due to cyberattack",
+      "description": "A major cyberattack has disrupted operations at the Port of Singapore, delaying cargo shipments and creating a significant backlog.",
+      "risk_categories": [
+        {"class_name": "Technology", "families": ["Cyber"]}
+      ],
+      "timestamp": "2025-01-17T15:00:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "Singapore",
+        "region": "Central Region",
+        "city": "Singapore",
+        "coordinates": [1.3521, 103.8198]
+      },
+      "source_name": "Tech News",
+      "author": "Alice Tan",
+      "url": "http://example.com/article4",
+      "is_event": true
+    },
+    {
+      "id": "5",
+      "title": "New EU regulation impacts manufacturing compliance",
+      "description": "The European Union has introduced a new regulation requiring stricter compliance standards for factories, impacting operations in multiple countries, including Poland and Romania.",
+      "risk_categories": [
+        {"class_name": "Governance", "families": ["Non-Compliance"]}
+      ],
+      "timestamp": "2025-01-16T10:45:00Z",
+      "location": {
+        "geographic_scope": "Europe",
+        "country": null,
+        "region": null,
+        "city": null,
+        "coordinates": null
+      },
+      "source_name": "Regulatory Insights",
+      "author": "Hans Müller",
+      "url": "http://example.com/article5",
+      "is_event": true
+    },
+    {
+      "id": "6",
+      "title": "Logistics delays in Munich due to rail strike",
+      "description": "A rail strike in Munich, Germany, has caused delays in the distribution of goods, affecting local and regional supply chains.",
+      "risk_categories": [
+        {"class_name": "Geopolitical", "families": ["Industrial Action"]}
+      ],
+      "timestamp": "2025-01-21T14:00:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "Germany",
+        "region": "Bavaria",
+        "city": "Munich",
+        "coordinates": [48.1351, 11.5820]
+      },
+      "source_name": "Global Logistics",
+      "author": "Thomas Keller",
+      "url": "http://example.com/article6",
+      "is_event": true
+    },
+    {
+      "id": "7",
+      "title": "Rare Earth export restrictions in Australia",
+      "description": "Australia is restricting the export of rare earth materials, a move that could disrupt global electronics manufacturing supply chains.",
+      "risk_categories": [
+        {"class_name": "Geopolitical", "families": ["Business Environment (Country Risk)"]}
+      ],
+      "timestamp": "2025-01-15T07:30:00Z",
+      "location": {
+        "geographic_scope": null,
+        "country": "Australia",
+        "region": null,
+        "city": null,
+        "coordinates": [-25.2744, 133.7751]
+      },
+      "source_name": "Mining Weekly",
+      "author": "Sarah White",
+      "url": "http://example.com/article7",
+      "is_event": true
+    }
+  ]
+}

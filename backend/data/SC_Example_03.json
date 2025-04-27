@@ -1,0 +1,206 @@
+{
+  "id": "3",
+  "companyName": "Infineon Technologies AG",
+  "description": "A leading provider of semiconductor solutions.",
+  "nodes": [
+    {
+      "id": "TSMC",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [24.774, 121.029],
+        "city": "Hsinchu",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "id": "UMC",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [24.774, 121.029],
+        "city": "Hsinchu",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "id": "Siltronic",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [48.1351, 11.582],
+        "city": "Munich",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "Amkor",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [33.4255, -111.9400],
+        "city": "Tempe",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Resonac",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [35.6895, 139.6917],
+        "city": "Tokyo",
+        "country": "Japan"
+      }
+    },
+    {
+      "id": "KLA",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [37.4325, -121.8992],
+        "city": "Milpitas",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Tower",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [32.6795, 35.2284],
+        "city": "Migdal HaEmek",
+        "country": "Israel"
+      }
+    },
+    {
+      "id": "GlobalWafers",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [24.774, 121.029],
+        "city": "Hsinchu",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "id": "Teradyne",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [42.5749, -71.0793],
+        "city": "North Reading",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Micron",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [43.615, -116.2023],
+        "city": "Boise",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "SkyWater",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [44.8408, -93.2983],
+        "city": "Bloomington",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Toray",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [35.6895, 139.6917],
+        "city": "Tokyo",
+        "country": "Japan"
+      }
+    },
+    {
+      "id": "ChipMOS",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [24.774, 121.029],
+        "city": "Hsinchu",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "id": "King Yuan",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [24.774, 121.029],
+        "city": "Hsinchu",
+        "country": "Taiwan"
+      }
+    },
+    {
+      "id": "Keysight",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [38.4405, -122.7141],
+        "city": "Santa Rosa",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Wolfspeed",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [35.994, -78.8986],
+        "city": "Durham",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "SOITEC",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [45.2923, 5.8866],
+        "city": "Bernin",
+        "country": "France"
+      }
+    },
+    {
+      "id": "Kulicke & Soffa",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [1.2905, 103.852],
+        "city": "Singapore",
+        "country": "Singapore"
+      }
+    },
+    {
+      "id": "Coherent",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [37.3541, -121.9552],
+        "city": "Santa Clara",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "SGL Carbon",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [50.0826, 8.2493],
+        "city": "Wiesbaden",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "Cohu",
+      "type": "Supplier",
+      "location": {
+        "coordinates": [32.9628, -117.035],
+        "city": "Poway",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "Infineon",
+      "type": "Customer",
+      "location": {
+        "coordinates": [48.1351, 11.582],
+        "city": "Munich",
+        "country": "Germany"
+      }
+    }
+  ],
+  "edges": []
+}

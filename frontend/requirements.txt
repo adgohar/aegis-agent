@@ -1,0 +1,7 @@
+streamlit
+requests
+streamlit-folium
+folium
+plotly
+wordcloud
+-e ./smolagents
